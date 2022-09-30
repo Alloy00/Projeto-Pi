@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.h1{
+    position: absolute;
+    top:20px;
+    color: #50177f;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logo{
+    position: absolute;
+    max-width: 20%;
+    height:20%;
+    left: 83%;
+}
+
+
+.login{
+    text-align: center;
+    background-color: #50177f;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 110px 20px;
+    border-radius: 70px;
+    color: white;
+    box-shadow: 6px 6px grey;
+}
+.botaotopo{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;   
+}
+
+.Botao{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: none;
+    padding: 9px;
+    border-radius: 8px;
+    box-shadow: 3px 3px grey;
+
+}
+
+.Botao2{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: none;
+    padding: 9px;
+    border-radius: 8px;
+    box-shadow: 6px 6px grey;
+}
+
+
+.dados{
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: 6px 6px grey;
+}
+
+#topnav {
+    width: 100%;
+ 
+    position: fixed;
+    top: 0;
+    left: 0;
+ 
+    background-color: #D3D3D3;
+ 
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+ }
