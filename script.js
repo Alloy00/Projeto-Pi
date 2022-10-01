@@ -2,14 +2,14 @@ function login()
 {
     var email = document.getElementById('Email').value;
     var senha = document.getElementById('Senha').value;
-
-
+    
     if(email == "admin@sidi.com" && senha == "admin"){
         alert('Verique seu email, a confirmação de login irá chegar :)')
     }
     else {
         alert('Email e/ou senhas incorreto(s)!!')
     }
+    
 }
 
 
