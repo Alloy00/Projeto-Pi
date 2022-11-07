@@ -17,14 +17,15 @@ window.onload = function () {
     el.onclick = sayHello;
 }
 
+
 function agendar()
 {
     alert("Será redirecionado para página de agendamento")
 }
 
-function agendamentos()
+function agendamento()
 {
-    alert("Será redirecionado para página de meus agendamentos")
+  window.location = "";
 }
 
 const date = new Date();
