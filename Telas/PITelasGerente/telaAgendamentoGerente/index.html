@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+ 
+</head> 
+<body>
+
+   <div class="container-fluid">
+      <img class="logo" src="Logoverde.png"> 
+      <img class="sair" src="./Imagens/sair.png"> <p>Sair</p> </div>
+   </div>
+   <div class="footer"> <img class="dec" src="Ícone---Roxo-e-Verde.png">
+   </div>    
+  
+
+<p class="textocent>">#Nome, você selecionou a data: </p>
+
+  
+   
+<div class="divtabela">
+<table>
+
+    <tr>
+<td class="numeros">N°</td>
+<td class="numeros" id="vazio"></td>
+ </tr>
+
+ <tr>
+    <td class="numeros">1</td>
+    <td class="status"> <input type="checkbox" id="checkbox1"> <label for="checkbox1">   Disponivel</label></td>
+ </tr>
+
+ <tr>
+    <td class="numeros">2</td>
+    <td class="status"><input type="checkbox" id="checkbox2"> <label for="checkbox2">   Disponivel</label> </td>
+ </tr>
+
+ <tr>
+    <td class="numeros">3</td>
+    <td class="status"><input type="checkbox" id="checkbox3"> <label for="checkbox3">   Disponivel</label> </td>
+ </tr>
+
+ <tr>
+    <td class="numeros">4</td>
+    <td class="status"><input type="checkbox" id="checkbox4"><label for="checkbox4">   Disponivel</label> </td>
+ </tr>
+
+ <tr>
+    <td class="numeros">5</td>
+    <td class="status"> <input type="checkbox" id="checkbox5"><label for="checkbox5">   Disponivel</label> </td>
+ </tr>
+
+ <tr>
+    <td class="numeros">6</td>
+    <td class="status"><input type="checkbox" id="checkbox6"><label for="checkbox6">   Disponivel</label> </td>
+ </tr>
+
+</table>
+</div>
+
+<a id="bConfirmar" href="www.google.com.br">Confirmar </a> 
+
+<script>
+    let checkbox = document.querySelector('input');
+    let button = document.querySelector('#bConfirmar');
+    
+    
+      
+        checkbox.addEventListener('change', () => {
+            if(!checkbox.checked) button.style.display = 'none';
+            else button.style.display = 'inline-block'; });
+    
+</script>
+</body>
+</html>
