@@ -294,7 +294,7 @@ button{
   height: 70% !important;
   border:none;
   box-shadow: 0 8px 6px -10px black;
-  background-color: #6111C5;
+  background-color: #49DD8C;
   font-weight: bold;
   color:white;
   
@@ -312,7 +312,7 @@ button{
   height: 70% !important;
   border:none;
   box-shadow: 0 8px 6px -10px black;
-  background-color: #6111C5;
+  background-color: #49DD8C;
   color:white;
   font-weight: bold;
   
@@ -330,7 +330,7 @@ button{
   border:none;
   box-shadow: 0 8px 6px -10px black;
   color:white;
-  background-color: #49DD8C;
+  background-color: #6111C5;
   font-family: 'Ubuntu', sans-serif;
 
 }
