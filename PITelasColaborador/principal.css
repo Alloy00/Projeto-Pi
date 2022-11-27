@@ -259,7 +259,7 @@ button{
     margin:1.5%;
     width: max-content !important;
     height:max-content !important;
-   
+    
   }
   
   .botao2{
@@ -281,9 +281,14 @@ button{
     justify-content: center !important;
     align-items: center;
     margin-left: 5% !important;
-    
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
   
   }
+
+
+
+  
 }
 .botao1{
   border-radius: 10px !important;
