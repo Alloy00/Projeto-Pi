@@ -138,6 +138,13 @@
     form {
       margin-left:2%;
   }
+  .formulario{
+    overflow-y: scroll;
+   grid-template-columns:100%;
+   grid-template-rows: auto;
+   margin:none;
+   justify-items:center;
+ }
     #botaoroxo{
       margin-right:10%;
       min-width:210px !important;
