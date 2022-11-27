@@ -151,13 +151,7 @@
       margin:0;
     }
     
-    .formulario{
-       overflow-y: scroll;
-      grid-template-columns:100%;
-      grid-template-rows: auto;
-      margin:none;
-      justify-items:center;
-    }
+   
     input{
       justify-content:center;
       align-items:center;
