@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+.login{
+    
+    /*box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.2);*/
+   
+    box-shadow: unset;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    height:100%;
+    width:100%;
+    border-radius:20px;
+    border-color:green;
+    display:grid;
+    grid-template-rows:  10%
+                         auto;                      
+    grid-template-areas:
+                         "formulario"
+                         "botaosalvar";
+  }
+
+  .formulario > input{
+    border-radius:5.5px;
+  }
+  .formulario{
+    margin-top:7%;
+    background-color:white;
+    border:solid;
+    border:2px;
+    border-color:black;
+    border-radius:4px;
+    padding-top:3%;
+  }
+
+  .formulario{
+    overflow-y: scroll;
+   grid-template-columns:100%;
+   grid-template-rows: auto;
+   margin:none;
+   justify-items:center;
+ }
+
+ .botaosalvar{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    max-height: 5% !important;
+    box-sizing: border-box;
+    vertical-align: middle !important;
+  }
+
+
+ .btn btn-primary btn-lg{
+    margin-left:70% !important;
+  }
+
+  .btn btn-primary btn-lg:hover{
+    background-color: rgb(144, 71, 212) !important;
+  }
+
+  #suprimir{
+    margin-left:30%;
+    margin-right: 30%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    height:100vh !important;
+    width: 100vw;
+  }
+
+
+  #botaoroxo{
+    margin-left:68%;
+    margin-top:2%;
+    min-width:210px;
+    max-height:50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    background-color: #360080;
+   
+    
+  }
+
+
+  #pesquisar{
+    margin-left:20%; /*         ajustar margens! --------------------*/ 
+    margin-top:1%;    /*         ajustar margens! --------------------*/ 
+    border-radius:20px;
+    background-color: #E7E7E7;
+    border: 1px solid black;
+    height:70%;
+    width:17%;
+  }
+
+  #btnok{
+    border:1px solid #360080;
+    width:3.7%;
+    height:60%;
+    border-radius:20px;
+    margin-left:1%;
+    background-color: #49DD8C;
+  }
+
+  #btnok:hover {
+    background-color: #a2dabb;
+  }
+
+  #pesquisar:hover{
+    background-color:white;
+  }
+
+  .conteiner2{
+
+    height:100%;
+  }
+
+
+
+  form {
+    display: grid;
+    grid-template-columns: 7% 40% 11% 40%;
+    grid-gap: 1.5%;
+    margin-left:6%;
+  margin-right:6%;
+    
+    
+}
+@media (max-width:1500px){
+    .btnexit{
+        margin-right:60%;
+    }
+  }
+  @media (max-width:1000px){
+    label{white-space: normal;}
+    #botaoroxo{
+      margin-right:10%;
+      min-width:210px;
+    }
+  }
+  @media (max-width: 1000px){
+    label{white-space: normal;}
+    form {
+      margin-left:2%;
+  }
+    #botaoroxo{
+      margin-right:10%;
+      min-width:210px !important;
+      width:90% !important;
+      margin:0;
+    }
+    
+    .formulario{
+       overflow-y: scroll;
+      grid-template-columns:100%;
+      grid-template-rows: auto;
+      margin:none;
+      justify-items:center;
+    }
+    input{
+      justify-content:center;
+      align-items:center;
+      width:100%;
+      max-width:80%;
+      min-height:40px !important;
+       max-height:40px !important;
+    }
+    label{
+      width: min-content;
+      justify-content:center;
+      align-items:center;
+    }
+    .botaosalvar{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      max-height: 5% !important;
+      box-sizing: border-box;
+      vertical-align: middle !important;
+      
+    }
+    #botaoroxo{
+      min-width:0;
+      width:100%;
+      
+    }
+    
+    @media (max-width:870px){
+       #botaoroxo{
+      min-width:0;
+      width:90% !important;
+      margin:0;
+      max-height:40px;
+    }
+    }
+
+    
+  }

@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CadastroDeEstacoes.css">
+    <link rel="stylesheet" href="EditarCadastro.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat'>
-  <title>Editar Estação</title>
+  <title>Cadastro de Estações</title>
 </head>
 
 <body>
@@ -27,7 +27,8 @@
         
     </div>
     <div class = 'conteiner2'>
-      <h5 class="c2">• Cadastro de estações</h5>
+      <input type="text" placeholder="   E-mail corporativo" id="pesquisar">
+      <button type="button" id="btnok">OK</button>
     </div>
   
     <div class = 'conteiner3'>
@@ -35,42 +36,33 @@
       <div class='branco'></div>
       
       <div class='login'>
-        <div class='barrinha'><p class='cadastro'>Cadastro de Estações</p></div>
-        
-        
+
           <form class= 'formulario'action="">
-          
-            <label for="">ID</label>
-            <input type="text">
-         
-            <label for="">Data de inclusão</label>
-            <input type="text">
           
             <label for="">Nome</label>
             <input type="text">
-          
-            <label for="">Endereço</label>
-            <input type="text">
          
-            <label id='labelsuperv'for="">Supervisão</label>
+            <label for="">Matrícula</label>
             <input type="text">
           
-          
-            <label for="">Telefone</label>
+            <label for="">Função</label>
             <input type="text">
-          
           
             <label for="">E-mail</label>
-            <input type="e-mail">
-          
-          
+            <input type="email">
          
+            <label id='labelsuperv'for="">Colabora
+              dor
+            </label>
+            <input type="text">
+
+            <label for="">Unidade</label>
+            <input type="">
+
         </form>
-        
-        <div class='botaosalvar'>
-          
-         <button type="button" class="btn btn-primary btn-lg"onclick="location.href='GerencEstacoes.html'" id='botaoroxo'>Salvar alterações</button>
-            
+        <div class="botaosalvar">
+          <button type="button" class="btn btn-primary btn-lg" onclick="location.href='GerencDisp.html'" id="botaoroxo">Salvar alterações</button>
+
         </div>
         
           
