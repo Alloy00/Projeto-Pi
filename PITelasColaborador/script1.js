@@ -19,8 +19,8 @@ if(checkbox.checked) {
 } else {
   document.querySelector('#btn5').disabled = true;
 }
-
 }
+
 
 function MostraElemento(idelemento)
 {
@@ -36,12 +36,14 @@ elemento.style.display = 'none';
 }
 
 
-var yourbuttons = document.getElementsByClassName('classenothave');
+
+
+var yourbuttons = document.getElementsByClassName('btncolab');
 var idThis;
-const id1 = "gerente";
-const id2 = "colaborador";
+const id2 = "colab2";
+const id3 = "colab3";
 var highlightIni = 0;
-var idIni = document.getElementById('colaborador');
+var idIni = document.getElementById('colab2');
 for (var i = yourbuttons.length - 1; i >= 0; i--) {
     var currentbtn;
     yourbuttons[i].onclick=function(){
@@ -56,13 +58,8 @@ for (var i = yourbuttons.length - 1; i >= 0; i--) {
           this.classList.add("highlight");
           currentbtn=this;
           idThis = this.id;
-          if (idThis === id2){MostraElemento('botaog'); EscondeElemento('botaoc');}
-          if (idThis === id1){MostraElemento('botaoc'); EscondeElemento('botaog');}
+          if (idThis === id2){MostraElemento('divcolab2');EscondeElemento('divcolab3');}
+          if (idThis === id3){MostraElemento('divcolab3');EscondeElemento('divcolab2');}
     }
 
 };
-
-
-src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-crossorigin="anonymous" 
