@@ -22,14 +22,15 @@ body{
   display:flex;
   position:relative;
   margin-left:1.5%;
-  margin-top:1.5%;
-  margin-right:70%;
+  margin-top:1%;
+  margin-right:75%;
   width:13%;
   height:67%;
   justify-content: center;
   align-items: center;
   vertical-align: center;
-  min-width: 210px;
+  min-height:5vh;
+  min-width: 10vh;
   box-sizing: border-box;
 }
 .novosair{
@@ -62,13 +63,13 @@ body{
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
-  font-size:0.95cm;
+  font-size:5.3vh;
   box-sizing: border-box;
   text-decoration: none;
   color: #000000;
   margin-top:1.5%;
   vertical-align: center;
-  margin-left:0;
+  margin-left:1vh;
   margin-right:1.5%;
   
 }
@@ -128,7 +129,7 @@ body{
   margin-left:20% !important;
   margin-top:2%;
 }
-.btnexit{
+.btn{
   display:flex;
   position:relative;
   margin-left:77%;

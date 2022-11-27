@@ -43,9 +43,14 @@ head{
 
 .btnexit{
     position: absolute;
-    top: 2%;
-    right: 2%;
-    font-size: 35px;
+    top: 3vh;
+    right: 1vh;
+    font-size: 5.3vh;
+}
+
+.imgexit{
+    height:5vh;
+    width:5vh;
 }
 
 .textexit{
