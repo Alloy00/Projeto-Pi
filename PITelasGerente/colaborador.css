@@ -569,6 +569,7 @@ input[type="radio"]:checked {
     font-size: 2.4vh;
     cursor: pointer;
     transition: background .3s;
+    margin-bottom:5vh;
     
     background-color: #A3E1BF;
     border:0.1vh solid #a3e1bfec;
@@ -581,4 +582,14 @@ input[type="radio"]:checked {
     background-color: #FFFFFF;
     border:0.05vh solid#979D9E;
     color:#000000;
+    }
+
+    .highlight{
+        background:white;
+        color:#000000;
+        border:0.05vh solid#979D9E;
+    }
+    .divcolab{
+        display:none;
+        z-index: 2;
     }

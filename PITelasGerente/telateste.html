@@ -25,7 +25,12 @@
 
       <div class="container">
         <div class="containertabela">
+            <input type="button" id="colab1" class="btncolab"  style="margin-right: -0.9vh;padding:0.5vh 9vh; border-top-left-radius:1.5vh; border-bottom-left-radius:1.5vh;" value="Editar Cadastro" />
+            <input type="button" id="colab2" class="btncolab highlight"  style="padding:0.5vh 9vh;" value="Incluir Colaborador" />
+            <input type="button" id="colab3" class="btncolab"  style="margin-left: -0.9vh;padding:0.5vh 8.5vh; border-top-right-radius:1.5vh; border-bottom-right-radius:1.5vh;" value="Lista de Acessos" />
 
+
+            <div id="divcolab3" class="divcolab">
             <p style="font-weight: bold;font-size:2.5vh;">Gerenciamento de Disponibilidade</p>
           <table>
             <div id="divTeste" class="conf" style="padding: 0.5vh 6vh;"><h1 style="font-size:4vh;">Deseja bloquear o agendamento de Danilo com a matricula 123456?</h1>
@@ -89,7 +94,107 @@
             </table>
             <input type="button" class="btnroxo" onclick="location.href='CadastroDeEstacoes.html';" onclick="EscondeElemento('divTeste');" value="Adicionar Estação" />
         </div>
-      </div>
+
+
+        <div id="divcolab2" class="divcolab" style="display:block">
+            <p style="font-weight: bold;font-size:2.5vh;">Gerenciamento de Estações</p>
+          <table>
+            <tr>
+                <th style="padding: 0.5vh 14vh;">ID</th>
+                <th style="padding: 0.5vh 14vh;">Nome</th>
+                <th style="padding: 0.5vh 14vh;">Status</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Estação 1</td>
+                <td>Ocupado
+                    <a class="editdelete" href="EditarEstacoes.html">Editar</a>
+                    <a class="editdelete" href="#">Deletar</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Estação 2</td>
+                <td>Disponível
+                    <a class="editdelete" href="EditarEstacoes.html">Editar</a>
+                    <a class="editdelete" href="#">Deletar</a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Estação 3</td>
+                <td>Em Operação
+                    <a class="editdelete" href="EditarEstacoes.html">Editar</a>
+                    <a class="editdelete" href="#">Deletar</a>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Estação 4</td>
+                <td>Disponível
+                    <a class="editdelete" href="EditarEstacoes.html">Editar</a>
+                    <a class="editdelete" href="#">Deletar</a>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Estação 5</td>
+                <td>Em Operação
+                    <a class="editdelete" href="EditarEstacoes.html">Editar</a>
+                    <a class="editdelete" href="#">Deletar</a>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Estação 6</td>
+                <td>Ocupado
+                    <a class="editdelete" href="EditarEstacoes.html">Editar</a>
+                    <a class="editdelete" href="#">Deletar</a>
+                </td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Estação 7</td>
+              <td>Ocupado
+                  <a class="editdelete" href="EditarEstacoes.html">Editar</a>
+                  <a class="editdelete" href="#">Deletar</a>
+              </td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Estação 8</td>
+            <td>Disponível
+                <a class="editdelete" href="EditarEstacoes.html">Editar</a>
+                <a class="editdelete" href="#">Deletar</a>
+            </td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Estação 10</td>
+            <td>Em Operação
+                <a class="editdelete" href="EditarEstacoes.html">Editar</a>
+                <a class="editdelete" href="#">Deletar</a>
+            </td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Estação 10</td>
+            <td>Disponível
+                <a class="editdelete" href="EditarEstacoes.html">Editar</a>
+                <a class="editdelete" href="#">Deletar</a>
+            </td>
+        </tr>
+            </table>
+            <p style="font-weight: bold;font-size:2.5vh;">Total de Estações Disponíveis: 4</p>
+        </div>
+
+
+        <div id="divcolab1" class="divcolab">
+            Div inicial para teste, oi :)
+        </div>
+
+    </div>
+</div>
 
 
 
@@ -106,5 +211,12 @@
     </div>
  
 </body>
+<script>
+
+</script>
+
 <script src="script.js"></script>
 </html>
+
+
+    
