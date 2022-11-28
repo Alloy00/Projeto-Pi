@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/gerente.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat'>
+    <title>Gerenciamento de Disponibilidade</title>
+</head>
+<body style="background-color:#F5F5F5;" >
+  
+  <!-- Início fixo -->
+  <div class="container-fluid">
+    <div class="btnexit">
+           <img class="imgexit" src="../Imagens/log-out1.png">
+         <a class="textexit"href="../Site/login.html"> Sair</a> 
+     </div>
+  </div>
+  <img class="logo" src="../Imagens/logo.png" >
+  <img class="dec" src="../Imagens/Sidi.png">
+<!-- Fim fixo -->
+
+      <div class="container">
+        <div class="containertabela">
+
+            <p style="font-weight: bold;font-size:2.5vh;">Gerenciamento de Disponibilidade</p>
+          <table>
+            <div id="divTeste" class="conf" style="padding: 0.5vh 6vh;"><h1 style="font-size:4vh;">Deseja bloquear o agendamento de Danilo com a matricula 123456?</h1>
+                <br>          
+                <input type="button" class="btnroxo" onclick="location.href='AgendamentoCalendario.html';" value="Confirmar" />
+                <input type="button" class="btncanc" onclick="EscondeElemento('divTeste');" value="Cancelar" />
+                <br>
+                <br>
+                <h2 style="font-size: 3.5vh;">Obs: Será enviado um e-mail ao colaborador cancelando sua marcação </h2>
+            </div>
+            <tr>
+                <th style="padding: 0.5vh 4vh;">Local</th>
+                <th style="padding: 0.5vh 4.5vh;">Estação</th>
+                <th style="padding: 0.5vh 6vh;">Matrícula</th>
+                <th style="padding: 0.5vh 6vh;">Situação</th>
+                <th style="padding: 0.5vh 10vh;"></th>
+            </tr>
+            <tr>
+                <td>ADM</td>
+                <td>1</td>
+                <td>123456</td>
+                <td>Ocupado</td>
+                <td><input type="button"class="btnroxo"onclick="MostraElemento('divTeste');" value="Bloquear" /></td>
+            </tr>
+            <tr>
+                <td>ADM</td>
+                <td>2</td>
+                <td>123456</td>
+                <td>Ocupado</td>
+                <td><input type="button"class="btnroxo"onclick="MostraElemento('divTeste');" value="Bloquear" /></td>
+            </tr>
+            <tr>
+                <td>ADM</td>
+                <td>3</td>
+                <td>123456</td>
+                <td>Ocupado</td>
+                <td><input type="button"class="btnroxo"onclick="MostraElemento('divTeste');" value="Bloquear" /></td>
+            </tr>
+            <tr>
+                <td>ADM</td>
+                <td>4</td>
+                <td>123456</td>
+                <td>Ocupado</td>
+                <td><input type="button"class="btnroxo"onclick="MostraElemento('divTeste');" value="Bloquear" /></td>
+            </tr>
+            <tr>
+                <td>ADM</td>
+                <td>5</td>
+                <td>123456</td>
+                <td>Ocupado</td>
+                <td><input type="button"class="btnroxo"onclick="MostraElemento('divTeste');" value="Bloquear" /></td>
+            </tr>
+            <tr>
+                <td>ADM</td>
+                <td>6</td>
+                <td>123456</td>
+                <td>Ocupado</td>
+                <td><input type="button"class="btnroxo"onclick="MostraElemento('divTeste');" value="Bloquear" /></td>
+            </tr>
+
+            </table>
+            <input type="button" class="btnroxo" onclick="location.href='CadastroDeEstacoes.html';" onclick="EscondeElemento('divTeste');" value="Adicionar Estação" />
+        </div>
+      </div>
+
+
+
+
+
+      
+
+</body>
+<script src="../Script/script.js"></script>
+</html>
