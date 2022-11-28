@@ -32,6 +32,8 @@ body{
     align-items: center;
 }
 
+
+
 .left-login{
     width:50% !important;
     height:100%;
@@ -41,8 +43,12 @@ body{
     
     background-color: blueviolet;
     padding-bottom: 2px;
-    margin:2%;
+    padding-top:7px;
     box-sizing: border-box;
+    border-radius: 8px 8px 0px 0px;
+    width: max-content;
+    width:90%;
+    margin-left:7.55%;
 }
 .right-barra > h1{
     color:white;
@@ -51,6 +57,7 @@ body{
     top: 50%;
     left: 50%;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
     
    
 }
@@ -77,14 +84,14 @@ body{
     justify-content: center;
     align-items: center;
     border:none;
-    border-radius: 13px;
+    border-radius: 0px 0px 13px 13px;
     width:90%;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 35px;
+    padding-top: 0;
     padding-bottom: 50px;
 
-    margin:30px;
+    margin:0px 30px 30px 30px;
 }
 
 .card-login2{
@@ -120,6 +127,8 @@ body{
     font-weight:600;
     width:100%;
     font-family: 'Ubuntu', sans-serif;
+    margin-top:5%;
+    
 }
 
 
@@ -179,6 +188,7 @@ body{
     height: 100%;
     justify-content: center;
     box-sizing: border-box !important;
+    
     
 }
 
@@ -329,6 +339,7 @@ body > a{
 width: 200%;
 box-sizing: border-box;
 border: 1px solid gainsboro;
+
 }
 
 .classenothave{
