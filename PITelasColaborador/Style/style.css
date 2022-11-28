@@ -1,7 +1,7 @@
 body{
     margin:0;
     display:flex;
-    background-image: url("Desktop\ -\ 1.png");
+    background-image: url("/PITelasColaborador/Imagens/Desktop\ -\ 1.png");
     font-family: 'Montserrat';
     font-size: 22px;
     box-sizing: border-box;
@@ -110,9 +110,8 @@ body{
 
 .botoesbaixo{
     display:flex;
-    margin:none !important;
-    margin-left:20% !important;
-    
+    margin-right:130px;
+    margin-top:30px;
 }
 
 .esqueci{
