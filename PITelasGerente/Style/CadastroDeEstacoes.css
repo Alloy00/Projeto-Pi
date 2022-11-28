@@ -7,7 +7,7 @@
     width:100vw;
     height:100vh;
     font-family: arial;
-    color: black;card
+    color: black;
     display:grid;
     grid-template-columns: 100%; 
     grid-template-rows: 13% 7% 63% auto;
