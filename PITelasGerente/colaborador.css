@@ -598,3 +598,58 @@ input[type="radio"]:checked {
         display:none;
         z-index: 2;
     }
+
+    .forms{
+
+        position:absolute;
+        background-color:rgb(255, 255, 255);
+        border-radius: 1.5vh;
+        box-shadow: 2px 2px 2px rgb(182, 180, 180), -1px -1px 3px rgb(182, 180, 180);
+        width:131vh;
+        height: 50vh;
+
+    }
+
+    form {
+        display:grid;
+        grid-template-columns: 5% 38% 10% 38%;
+        grid-gap: 2%;
+        margin-left:2%;
+        height:60%;
+      margin-right:6%;
+      margin-top: 3vh;
+
+
+        
+        
+    }
+    form > input{
+        max-height:45%;
+        max-width:95%;
+        margin-left:1vh;
+        border: 0.2vh solid black;
+        border-radius: 1vh;
+    }
+
+    label{
+        padding:0vh 1vh;
+ 
+    }
+    .pesqbox{
+        border:0.2vh solid black;
+        border-radius: 1vh;
+        margin-bottom: 2vh;
+        background-color:lightgray;
+    }
+    .btnok{
+        border:1px solid #360080;
+        width:6%;
+        height:60%;
+        border-radius:20px;
+        margin-left:1%;
+        background-color: #49DD8C;
+      }
+    
+      .btnok:hover {
+        background-color: #a2dabb;
+      }

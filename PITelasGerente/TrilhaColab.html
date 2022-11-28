@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colaborador.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat'>
+    <title>Gerenciamento de Disponibilidade</title>
+</head>
+<body style="background-color:#F5F5F5;" >
+  
+  <!-- Início fixo -->
+  <div class="container-fluid">
+    <div class="btnexit">
+           <img class="imgexit" src="log-out1.png">
+         <a class="textexit"href="login.html"> Sair</a> 
+     </div>
+  </div>
+  <img class="logo" src="logo.png" >
+  <img class="dec" src="Sidi.PNG">
+<!-- Fim fixo -->
+
+      <div class="container">
+        <div class="containertabela">
+            <input type="button" id="colab1" class="btncolab"  style="margin-right: -0.9vh;padding:0.5vh 13vh; border-top-left-radius:1.5vh; border-bottom-left-radius:1.5vh;" value="Editar Cadastro" />
+            <input type="button" id="colab2" class="btncolab highlight"  style="padding:0.5vh 13vh;" value="Incluir Colaborador" />
+            <input type="button" id="colab3" class="btncolab"  style="margin-left: -0.9vh;padding:0.5vh 12.5vh; border-top-right-radius:1.5vh; border-bottom-right-radius:1.5vh;" value="Lista de Acessos" />
+
+
+                <div id="divcolab1" class="divcolab">
+                    <div class = "pesq">
+                        <input class="pesqbox" type="text" placeholder="   E-mail corporativo" id="pesquisar">
+                        <button type="button" class="btnok" id="btnok">OK</button>
+                      </div>
+                    <div class ="forms">
+                        <form class="input">
+                            <label for="">Nome:</label>
+                            <input type="text">
+                            
+                            <label for="">Matrícula:</label>
+                            <input type="text">
+                            
+                            <label for="">Função:</label>
+                            <input type="text">
+                          
+                            <label for="">E-mail:</label>
+                            <input type="email">
+                         
+                            <label id='labelsuperv'for="">Colab.:</label>
+                            <input type="text">
+                
+                            <label for="">Unidade:</label>
+                            <input type="">
+                        </form>
+                        <input type="button" class="btnroxo" value="Salvar Alteração" onclick="location.href='TrilhaColab.html';" style="float:right;margin:5vh;">
+                    </div>
+                </div>
+              
+                
+
+
+
+        <div id="divcolab2" class="divcolab" style="display:block">
+            <p>• Incluir Colaborador</p>
+            <div class ="forms">
+                <form class="input">
+                    <label for="">Nome:</label>
+                    <input type="text">
+                    
+                    <label for="">Matrícula:</label>
+                    <input type="text">
+                    
+                    <label for="">Função:</label>
+                    <input type="text">
+                  
+                    <label for="">E-mail:</label>
+                    <input type="email">
+                 
+                    <label id='labelsuperv'for="">Colab.:</label>
+                    <input type="text">
+        
+                    <label for="">Unidade</label>
+                    <input type="">
+                </form>
+                <input type="button" class="btnroxo" value="Concluir" onclick="location.href='TrilhaColab.html';" style="float:right;margin:5vh;">
+            </div>
+        </div>
+
+
+        <div id="divcolab3" class="divcolab">
+                <p style="font-weight: bold;font-size:2.5vh;">• Lista de acessos</p>
+                <table>
+                    <tr>
+                        <th style="padding: 0.5vh 18vh;">Nome</th>
+                        <th style="padding: 0.5vh 14.5vh;">Matrícula</th>
+                        <th style="padding: 0.5vh 18vh;">E-mail</th>
+                    </tr>
+                    <tr>
+                        <td>Danilo</td>
+                        <td>95574393</td>
+                        <td>danilo@colaborador.Sidi.pe.br
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Carol</td>
+                        <td>95374393</td>
+                        <td>carol@colaborador.Sidi.pe.br
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Victor</td>
+                        <td>95856393</td>
+                        <td>victor@colaborador.Sidi.pe.br
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Vinicius</td>
+                        <td>95834393</td>
+                        <td>vinicius@colaborador.Sidi.pe.br
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kaike</td>
+                        <td>95872393</td>
+                        <td>kaike@colaborador.Sidi.pe.br
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Diêgo</td>
+                        <td>95674393</td>
+                        <td>diego@colaborador.Sidi.pe.br
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>Allyson</td>
+                      <td>9534393</td>
+                      <td>allyson@colaborador.Sidi.pe.br
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>Cibelly</td>
+                    <td>958434393</td>
+                    <td>cibelly@colaborador.Sidi.pe.br
+                    </td>
+                </tr>
+                <tr>
+                    <td>Paulo</td>
+                    <td>953434393</td>
+                    <td>paulo@colaborador.Sidi.pe.br
+                    </td>
+                </tr>
+                    </table>
+                    <p style="font-weight: bold;font-size:2.5vh; padding-left:35vh;">• Liberação de 160 Colaboradores</p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+
+
+      
+ 
+</body>
+<script>
+
+</script>
+
+<script src="script.js"></script>
+</html>
+
+
+    
