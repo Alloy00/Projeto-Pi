@@ -197,3 +197,18 @@ text-align: center;
        
 }  
 
+.textexit{
+    position: absolute;
+    top: 4vh;
+    right: 7vh;
+    font-size: 5.3vh;
+    text-decoration: none;
+    color: #000000;
+    height:5vh;
+    width:5vh;
+
+}
+.textexit:hover{
+    color:darkblue;
+}
+
