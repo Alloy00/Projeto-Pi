@@ -68,12 +68,37 @@
 
 <script>
     let checkbox = document.querySelector("#checkbox1");
+    let checkbox2 = document.querySelector("#checkbox2");
+    let checkbox3 = document.querySelector("#checkbox3");
+    let checkbox4 = document.querySelector("#checkbox4");
+    let checkbox5 = document.querySelector("#checkbox5");
+    let checkbox6 = document.querySelector("#checkbox6");
     let button = document.querySelector('#bConfirmar');
     
     
       
         checkbox.addEventListener('change', () => {
             if(!checkbox.checked) button.style.display = 'none';
+            else button.style.display = 'inline-block'; });
+
+            checkbox2.addEventListener('change', () => {
+            if(!checkbox2.checked) button.style.display = 'none';
+            else button.style.display = 'inline-block'; });
+
+            checkbox3.addEventListener('change', () => {
+            if(!checkbox3.checked) button.style.display = 'none';
+            else button.style.display = 'inline-block'; });
+
+            checkbox4.addEventListener('change', () => {
+            if(!checkbox4.checked) button.style.display = 'none';
+            else button.style.display = 'inline-block'; });
+
+            checkbox5.addEventListener('change', () => {
+            if(!checkbox5.checked) button.style.display = 'none';
+            else button.style.display = 'inline-block'; });
+
+            checkbox6.addEventListener('change', () => {
+            if(!checkbox6.checked) button.style.display = 'none';
             else button.style.display = 'inline-block'; });
     
 </script>
