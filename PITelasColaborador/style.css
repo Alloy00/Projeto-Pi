@@ -110,8 +110,9 @@ body{
 
 .botoesbaixo{
     display:flex;
-    margin-right:130px;
-    margin-top:30px;
+    margin:none !important;
+    margin-left:20% !important;
+    
 }
 
 .esqueci{
@@ -147,11 +148,13 @@ body{
     border-radius: 10px;
     padding:3px 28px;
 }
-
+.btncolab{
+    background-color: #360080 !important;
+}
 
 
 .botoeslado > colaborador{
-color: rgb(95, 208, 95);
+color: #360080;
 background-color: black;;
 }
 
@@ -218,19 +221,19 @@ background-color: black;;
 
 .colaborador:hover {
     background-color: #000000;
-    color: rgb(95, 208, 95);
+    color:  #360080;
 }
 
 .colaborador:active {
     
-  background-color: #3e8e41;
+  background-color: #360080;
   box-shadow: 0 5px grey;
   transform: translateY(4px);
 }
 
 .gerencia:hover {
     background-color: #000000;
-    color: rgb(95, 208, 95);
+    color:  #360080;
 }
 
 .gerencia:active {

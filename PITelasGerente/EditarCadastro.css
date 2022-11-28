@@ -163,7 +163,12 @@
   .formulario > input{
     border-radius:5.5px;
   }
-  
+  .botaosalvar{
+    grid-area: "botaosalvar";
+  }
+  .formulario{
+    grid-area:'formulario';
+  }
   
   .barrinha{
     background-color:white;

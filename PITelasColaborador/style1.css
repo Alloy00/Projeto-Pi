@@ -50,6 +50,7 @@ body{
     align-items: center;
     top: 50%;
     left: 50%;
+    font-family: 'Ubuntu', sans-serif;
     
    
 }
@@ -70,12 +71,12 @@ body{
 
 .card-login{
     background-color: white;
-   
+    box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:solid;
+    border:none;
     border-radius: 13px;
     width:90%;
     padding-left: 30px;
@@ -112,14 +113,20 @@ body{
 }
 
 .btncolab{
-    color:rgb(0, 0, 0);
+    color:#360080 !important;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     padding:3px 14px;
+    font-weight:600;
+    width:100%;
+    font-family: 'Ubuntu', sans-serif;
 }
 
+
+
 .highlight{
-    background-color: #3e8e41;
+    color: white !important;
+    background-color: #360080 !important;
     box-shadow: 0 5px grey;
     transform: translateY(4px);
 }
@@ -130,8 +137,9 @@ body{
 }
 
 .btncolab:active {
-    
-  background-color: #3e8e41;
+
+    color: white !important;
+  background-color:#360080;
   box-shadow: 0 5px grey;
   transform: translateY(4px);
 }
@@ -140,33 +148,43 @@ body{
     display:flex;
     flex-direction: initial;
     margin-bottom: 40px;
+    width: 95%;
 }
 
 .btnentrar{
-    background-color: #3A72F5;
+    background-color:#6111C5;
     color: white;
-    font-size: 15px;
+    font-size: 22px;
     border: none;
     padding: 9px;
-    border-radius: 6px;
+    border-radius: 15px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin:10px;
-    margin-top:10px;
+    margin:none;
+    height:100% !important;
+    width: 100%;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    
 
 }
 
 .botoesbaixo{
     display:flex;
-    margin-right:130px;
-    margin-top:30px;
+    flex-direction: column;
+    margin-top:20px;
+    width:100%;
+    height: 100%;
+    justify-content: center;
+    box-sizing: border-box !important;
+    
 }
 
 .esqueci{
-    margin-top:17px;
-    margin-left:15px;
+    margin-left: 34%;
+    margin-top: 4%;
 }
 
 
@@ -183,6 +201,9 @@ body{
     color: gray;
     border-radius: 5px;
     box-sizing: border-box;
+    width: 100%;
+    border: 2px solid gainsboro;
+    height:40px;
 }
 
 .colaborador{
@@ -307,6 +328,7 @@ body > a{
 .dados > input {
 width: 200%;
 box-sizing: border-box;
+border: 1px solid gainsboro;
 }
 
 .classenothave{

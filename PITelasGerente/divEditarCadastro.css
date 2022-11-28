@@ -1,5 +1,5 @@
-*{
-    box-sizing: border-box;
+body{
+    height: 100vh;
 }
 .login{
     
@@ -7,23 +7,20 @@
    
     box-shadow: unset;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
-    height:100%;
+    height:100% !important;
     width:100%;
-    border-radius:20px;
-    border-color:green;
     display:grid;
-    grid-template-rows:  10%
-                         auto;                      
-    grid-template-areas:
-                         "formulario"
-                         "botaosalvar";
+    grid-template-rows: 10%
+                        65%
+                        25%;                      
+    
   }
 
   .formulario > input{
     border-radius:5.5px;
   }
   .formulario{
-    margin-top:7%;
+    margin-top:5%;
     background-color:white;
     border:solid;
     border:2px;
@@ -34,18 +31,20 @@
 
   
 
- .botaosalvar{
+  .botaosalvar{
     display:flex;
     justify-content:center;
     align-items:center;
     max-height: 5% !important;
     box-sizing: border-box;
     vertical-align: middle !important;
+    
   }
 
 
  .btn btn-primary btn-lg{
     margin-left:70% !important;
+    margin-top:1%;
   }
 
   .btn btn-primary btn-lg:hover{
@@ -64,7 +63,7 @@
 
   #botaoroxo{
     margin-left:68%;
-    margin-top:2%;
+    margin-top:4%;
     min-width:210px;
     max-height:50px;
     position: relative;
@@ -73,6 +72,7 @@
     align-items: center;
     border-radius:20px;
     background-color: #360080;
+    
    
     
   }
@@ -107,7 +107,7 @@
 
   .conteiner2{
 
-    height:100%;
+   
   }
 
 
@@ -173,6 +173,7 @@
       max-height: 5% !important;
       box-sizing: border-box;
       vertical-align: middle !important;
+      margin-top:1%;
       
     }
     #botaoroxo{
