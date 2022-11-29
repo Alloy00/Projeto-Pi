@@ -18,6 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right:12%;
     
     
 }
@@ -30,9 +31,13 @@ body{
 }
 .right-barra{
     
+    border-radius: 13px 13px 0 0;
+    margin-left:6% !important;
+    width:90.1%;
     background-color: blueviolet;
     padding-bottom: 2px;
     margin:2%;
+    margin-bottom: 0 !important;
     box-sizing: border-box;
 }
 .right-barra > h1{
@@ -62,37 +67,23 @@ body{
 
 .card-login2{
     background-color: white;
-   
+    box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.2) !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:solid;
-    border-radius: 13px;
-    width:90%;
-    padding: 5%;
-
-    margin:30px;
-   /* background-color: white;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border:solid;
-    border-radius: 13px;
-
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom:1%;
-    margin:4%
-
+    border:none;
+    border-radius: 0 0 13px 13px ;
     width:90%;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 35px;
     padding-bottom: 50px;
-    margin:30px;*/
-    
+
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom:30px;
+    margin-top:0;
 }
 
 
@@ -115,6 +106,8 @@ body{
     display:flex;
     margin-right:130px;
     margin-top:30px;
+    align-items: center;
+    justify-content: center !important;
 }
 
 .esqueci{
@@ -159,7 +152,7 @@ background-color: black;;
 }
 
 .Botao{
-    background-color: #3A72F5;
+    background-color: #6111C5;
     color: white;
     font-size: 15px;
     border: none;
@@ -171,7 +164,9 @@ background-color: black;;
     padding-bottom: 5px;
     margin:10px;
     margin-top:10px;
-
+    margin-left:30%;
+    border-radius: 10px;
+    position: relative;
 }
 
 .Botao2{
@@ -191,9 +186,9 @@ background-color: black;;
     color: black;
     text-decoration: none;
     position: relative;
-    margin-top:15px;
+    
     margin-left:15px;
-    position: absolute;
+    
     
 }
 
