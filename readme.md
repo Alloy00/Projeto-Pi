@@ -1,5 +1,5 @@
 # Descrição do projeto
-<h3> Uma ferramenta web que permita que os colaboradores façam reservas dessas estações, auxiliando o administrativo no gerenciamento das reservas e levando em conta a vinda de times de outras unidades também. Facilitando o controle e garantindo, deste modo, que todo funcionário tenha um lugar na SiDi.</h3>
+<h3> Ferramenta web que visa contribuir com os colaboradores e com o administrativo (gerência) da empresa, ao passo que possibilita que sejam realizadas reservas de estações de trabalho previamente à chegada à empresa e, para a gerência, o controle desses agendamentos/reserva. Assim, contribuindo para uma melhor satisfação de ambas as partes no que tange a esse quesito. 
 
 # Tecnologias utilizadas
 <img align="center" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
