@@ -224,8 +224,13 @@ background-color: black;;
     color: white;
     padding: 5px;
     text-align: center;
+<<<<<<< HEAD
     position: relative;
     
+=======
+    position: absolute;
+    right: 4.65cm;
+>>>>>>> 5d232a272608ee1254f2e0ff20bb93d6aa00522d
     border-radius: 10px;
 
 }
