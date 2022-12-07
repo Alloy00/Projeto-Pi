@@ -32,6 +32,13 @@ body{
   min-width: 210px;
   box-sizing: border-box;
 }
+
+.imgexit{
+  margin-top:5vh;
+  margin-left:4vh;
+  height:5vh;
+  width:5vh;
+}
 .novosair{
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
