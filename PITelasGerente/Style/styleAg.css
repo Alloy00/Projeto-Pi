@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #F5F5F5;
+    background-color: #f6f6ff;
 }
 
 .container-fluid{
@@ -24,13 +24,12 @@ body {
 .sair{
    
         float: right;
-        width: 40px;
-        height: 40px;
+        height:4vh;
+        width:4vh;
         left: 90%;
-        top: 34px;
+        top:6vh;
         margin-left: -32px;
         position: relative;
-        top: 32px;
         left: -83px;
 }
 

@@ -8279,6 +8279,7 @@ h1, h2, h3, h4, h5,
   width: 15%;
   top: 2%;
   position: absolute;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .dec{
@@ -8289,7 +8290,7 @@ h1, h2, h3, h4, h5,
 
 .btnexit{
   position: absolute;
-  top: 3vh;
+  top: 2.4vh;
   right: 1vh;
   font-size: 5.3vh;
 }

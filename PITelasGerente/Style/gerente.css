@@ -378,6 +378,7 @@ head{
 .editdelete{
     font-family: 'Poppins';
     font-size: 65%;
+    cursor: pointer;
 }
 
 table{
